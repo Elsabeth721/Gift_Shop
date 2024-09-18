@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Cart</title>
+</head>
+<body>
+  <header class="ml-5">
+    <nav class="flex justify-between items-center">
+      <div class="flex items-center">
+        <img class="w-20 h-20" src="images/istockphoto-1467984167-612x612.jpg" alt="" />
+        <a href="" class="mt-8 text-2xl">Enku<span class="text-red-600 font-bold">Gift</span></a>
+      </div>
+      <i class='fa-solid fa-close' id="cart-close" class="relative top-20"></i>
+    </nav>
+  </header>
+  <main>
+    <div class="cart flex flex-col mx-10 mt-12">
+      <h2 class="cart-title mb-10 text-4xl font-medium">Your Cart</h2>
+
+    <div class="cart-content flex flex-col gap-5 ml-8 ">
+
+
+    </div>
+
+
+    <div class="total flex flex-row gap-5 mb-8">
+        <hr class="text-black w-20 ">
+        <div class="total-title text-2xl">Total Price</div>
+        <div class="total-price text-2xl ">$0</div>
+    </div>
+   
+    <button type="button" class="btn-buy bg-red-500 p-3 ml-5 w-80 rounded-lg ">Buy Now</button>
+   
+</div>
+  </main>
+  <footer>
+    <section id="footer" class="bg-gray-100">
+      <div class="container mt-10 p-9 mx-auto ">
+          <ul class="grid grid-cols-1 items-start gap-5 pb-5 md:grid-cols-2 lg:grid-cols-4">
+              <li>
+                  <div class="space-y-3">
+                      <a href="" class="text-4xl font-oswald uppercase">Enku <span class="text-red-600 font-medium">Gift</span></a>
+                      <p class="text-xs">Find the perfect present, from artisanal snacks to stylish home goods. Our friendly staff is here to help you select the ideal thoughtful gift.</p>
+                  </div>
+              </li>
+              <li>
+                <div class="flex flex-col gap-3">
+                  <h3 class="text-lg uppercase font-oswald">Support</h3>
+                  <a href="" class="text-xs hover:text-red-600">FAQ's</a>
+                  <a href="" class="text-xs hover:text-red-600">Privacy</a>
+                  <a href="" class="text-xs hover:text-red-600">Terms and condition</a>
+                  <a href="" class="text-xs hover:text-red-600">Contact</a>
+                </div>  
+              </li>
+              <li class="space-y-8">
+                  <div class="space-y-2">
+                      <h3 class="text-lg uppercase font-oswald">Phone</h3>
+                      <p class="flex items-center gap-2 text-xs"><i class="fa-solid fa-phone text-lg text-red-600"></i>+251-9-309-024-80</p>
+                  </div>
+              </li>
+              <li class="space-y-8">
+                  <div class="space-y-2">
+                      <h3 class="text-lg uppercase font-oswald">email</h3>
+                      <p class="flex items-center gap-2 text-xs"><i class="fa-solid fa-envelope text-lg text-red-600" ></i>enkugift@gift.com</p>
+                  </div>
+              </li>
+              <li class="space-y-8">
+                  <div class="space-y-2">
+                      <h3 class="text-lg uppercase font-oswald">address</h3>
+                      <p class="flex items-center gap-2 text-xs"><i class="fa-solid fa-location-dot text-lg text-red-600" ></i>Gerji</p>
+                  </div>
+                  <div class="space-y-2">
+                      <h3 class="text-lg uppercase font-oswald">follow us</h3>
+                      <div class="space-x-3">
+                          <i class="fa-brands fa-facebook-f text-lg cursor-pointer text-red-600 hover:translate-y-1 ease-in duration-200"></i>
+                          <i class="fa-brands fa-twitter text-lg cursor-pointer text-red-600 hover:translate-y-1 ease-in duration-200"></i>
+                          <i class="fa-brands fa-square-instagram text-lg cursor-pointer text-red-600 hover:translate-y-1 ease-in duration-200"></i>
+                          <i class="fa-brands fa-facebook-f text-lg cursor-pointer text-red-600 hover:translate-y-1 ease-in duration-200"></i>
+
+                      </div>
+                  </div>
+              </li> 
+          </ul>
+          <div class="flex flex-col items-center border-t-2 border-black py-5 md:flex-row md:justify-between">
+              <p class="paragraph">Designed by Elsabeth Zeleke</p>
+              <p class="paragraph">Copy right @2024. All right reserved.</p>
+          </div>
+      </div>
+  </section>
+  </footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>
